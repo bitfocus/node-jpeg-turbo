@@ -279,7 +279,9 @@
                   '-D__x86_64__',
                   '-DWIN64',
                   '-DMSVC',
-                  '-I..\..\deps\include'
+                  '-I..\..\deps\include',
+                  '-I..\deps\include',
+                  '-I.'
                 ]
               },
               {
@@ -288,7 +290,9 @@
                   '-D__x86__',
                   '-DWIN32',
                   '-DMSVC',
-                  '-I..\..\deps\include'
+                  '-I..\..\deps\include',
+                  '-I..\deps\include',
+                  '-I.'
                 ]
               }]
             ]
