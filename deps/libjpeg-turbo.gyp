@@ -128,7 +128,7 @@
       'variables': {
         'yasm_path%': 'yasm',
         'yasm_format%': '-felf',
-        'yasm_flags%': [],
+        'yasm_flags%': [ '-Iinclude' ],
       },
       'conditions': [
         [ 'target_arch == "x64"', {
